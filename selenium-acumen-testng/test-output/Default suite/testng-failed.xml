@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <parameter name="baseURL" value="param-val-not-found"/>
+  <parameter name="suite" value="param-val-not-found"/>
+  <parameter name="env" value="param-val-not-found"/>
+  <test name="Default test" verbose="2">
+    <classes>
+      <class name="selenium.execution.ExecutionManager"/>
+    </classes>
+  </test> <!-- Default test -->
+  <test parallel="none" name="Default test(failed)">
+    <classes>
+      <class name="selenium.execution.ExecutionManager">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="setup"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- selenium.execution.ExecutionManager -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

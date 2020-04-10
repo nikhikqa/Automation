@@ -1,0 +1,12 @@
+2019-11-26 13:07:45 INFO  TestListener:34 - Test Cases Execution Started
+2019-11-26 13:07:46 INFO  TestListener:62 - feature Test Case started
+2019-11-26 13:08:14 INFO  TestListener:47 - feature Test Case failed
+2019-11-26 13:08:15 INFO  TestListener:29 - Test Cases Execution Finished 
+2019-11-26 13:09:56 INFO  TestListener:34 - Test Cases Execution Started
+2019-11-26 13:09:56 INFO  TestListener:62 - feature Test Case started
+2019-11-26 13:10:17 INFO  TestListener:47 - feature Test Case failed
+2019-11-26 13:10:18 INFO  TestListener:29 - Test Cases Execution Finished 
+2019-11-26 13:11:52 INFO  TestListener:34 - Test Cases Execution Started
+2019-11-26 13:11:53 INFO  TestListener:62 - feature Test Case started
+2019-11-26 13:12:10 INFO  TestListener:74 - feature Test Case passed
+2019-11-26 13:12:10 INFO  TestListener:29 - Test Cases Execution Finished 

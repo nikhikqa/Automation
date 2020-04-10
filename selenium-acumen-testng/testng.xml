@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="CallOne Suite" parallel="tests">
+
+	<listeners>
+		<listener class-name="utilities.testNG.TestListener" />
+		<listener
+			class-name="utilities.extent.ExtentTestNGIReporterListener" />
+	</listeners>
+
+	<parameter name="baseURL"
+		value="https://www.netsmartz.com/"/>
+	<parameter name="env" value="Dev" />
+	<parameter name="suite" value="Canary Suite" />
+	<test name="Canary Tests BDD">
+		<classes>
+			<class name="selenium.execution.ExecutionManager" />
+		</classes>
+	</test>
+
+
+	<!-- <test name="Canary Tests TDD"> <classes> <class name="utilities.restassured.LearnRestAssured" 
+		/> </classes> </test> -->
+</suite> 

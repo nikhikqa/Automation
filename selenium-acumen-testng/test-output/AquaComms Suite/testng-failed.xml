@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [AquaComms Suite]" parallel="tests">
+  <parameter name="baseURL" value="http://192.168.80.77/web/guest/home"/>
+  <parameter name="suite" value="Canary Suite"/>
+  <parameter name="env" value="Dev"/>
+  <listeners>
+    <listener class-name="utilities.testNG.TestListener"/>
+    <listener class-name="utilities.extent.ExtentTestNGIReporterListener"/>
+  </listeners>
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="selenium.execution.ExecutionManager"/>
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Failed suite [AquaComms Suite] -->
